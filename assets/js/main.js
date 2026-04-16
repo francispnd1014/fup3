@@ -193,7 +193,11 @@
         }
         
         switch (cont) {
-          case ".filter-px":
+          case ".filter-kmk":
+            document.getElementById("kmkoptometry").classList.remove("d-none");
+            document.getElementById("kmk").classList.remove("d-none");
+          break;
+           case ".filter-px":
             document.getElementById("pixelsquare").classList.remove("d-none");
             document.getElementById("px").classList.remove("d-none");
           break;
